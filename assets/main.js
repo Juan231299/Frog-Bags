@@ -1,4 +1,4 @@
-const API = 'https://instagram-scraper-api2.p.rapidapi.com/v1.2/posts?username_or_id_or_url=59850931913';
+const API = 'https://instagram-scraper-api2.p.rapidapi.com/v1.2/posts?username_or_id_or_url=67791296641';
 
 const options = {
     method: 'GET',
