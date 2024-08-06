@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         const result = await fetchData(API);
 
-        const itemsToShow = result.data.items.slice(0, 4);
+        const itemsToShow = result.data.items.slice(0, 12);
 
         let view = itemsToShow.map(item => {
 
