@@ -1,4 +1,4 @@
-const API = 'https://instagram-scraper-api2.p.rapidapi.com/v1.2/posts?username_or_id_or_url=67791296641';
+const API = 'https://instagram-scraper-api2.p.rapidapi.com/v1.2/posts?username_or_id_or_url=67791296641&url_embed_safe=true';
 
 const options = {
     method: 'GET',
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         const result = await fetchData(API);
 
-        const itemsToShow = result.data.items.slice(0, 12);
+        const itemsToShow = result.data.items.slice(0, 6);
 
         let view = itemsToShow.map(item => {
 
